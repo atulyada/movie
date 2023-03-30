@@ -9,7 +9,7 @@ from movies_scraper import search_movies, get_movie
 
 
 TOKEN = os.getenv("TOKEN")
-URL = "https://movie-4lnn.vercel.app"
+URL = "https://movie-4lnn-git-main-atulyada.vercel.app"
 bot = Bot(TOKEN)
 
 
