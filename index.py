@@ -15,7 +15,8 @@ bot = Bot(TOKEN)
 
 def welcome(update, context) -> None:
     update.message.reply_text(f"Hello {update.message.from_user.first_name}, Welcome to DPMovie Join @dp_mods.\n"
-                              f"🔥 Download Your Favourite Movies For 💯 Free And 🍿 Enjoy it.")
+                              f"🔥 Download Your Favourite Movies For 💯 Free And 🍿 Enjoy it. \n"
+                              f"How To Download = https://vimeo.com/813088682 ")
     update.message.reply_text("👇 Enter Movie Name 👇")
 
 
